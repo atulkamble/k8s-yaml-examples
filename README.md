@@ -4,15 +4,21 @@ A complete reference of Kubernetes YAML configuration examples with real-world u
 
 ---
 
+## GIT CLONE 
+```
+git clone https://github.com/atulkamble/k8s-yaml-examples.git
+cd k8s-yaml-examples
+```
+
 ###
 ```
-New-Item
+New-Item file.extension
 OR
-touch
+touch file.extension
 
-notepad
+notepad file.extension
 OR
-nano 
+nano file.extension
 
 ```
 

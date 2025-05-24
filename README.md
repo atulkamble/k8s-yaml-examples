@@ -4,6 +4,18 @@ A complete reference of Kubernetes YAML configuration examples with real-world u
 
 ---
 
+###
+```
+New-Item
+OR
+touch
+
+notepad
+OR
+nano 
+
+```
+
 ## Create EKS Cluster 
 ```
 eksctl create cluster \
@@ -16,7 +28,14 @@ eksctl create cluster \
   --nodes-max 2 \
   --managed
 ```
-
+## cluster deletion 
+```
+eksctl delete cluster demo-cluster
+```
+## get node details and pod details together 
+```
+kubectl get pods -o wide
+```
 ## 🟢 BASIC LEVEL
 
 ### 1. Pod

@@ -4,6 +4,19 @@ A complete reference of Kubernetes YAML configuration examples with real-world u
 
 ---
 
+## Create EKS Cluster 
+```
+eksctl create cluster \
+  --name demo-cluster \
+  --region us-east-1 \
+  --nodegroup-name demo-nodes \
+  --node-type t3.medium \
+  --nodes 2 \
+  --nodes-min 2 \
+  --nodes-max 2 \
+  --managed
+```
+
 ## 🟢 BASIC LEVEL
 
 ### 1. Pod

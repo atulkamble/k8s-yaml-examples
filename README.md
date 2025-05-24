@@ -21,6 +21,10 @@ OR
 nano file.extension
 
 ```
+```
+aws --version
+aws configure
+```
 
 ## Create EKS Cluster 
 ```
